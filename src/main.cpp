@@ -54,7 +54,6 @@ int main(int, char**)
 
     // Create window with graphics context
     GuiApp guiApp;
-//    guiApp.getWindow();
     guiApp.init(glsl_version);
 
     //main loop
