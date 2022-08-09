@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.2)
 project(GuiApp)
 
 set(CMAKE_CXX_STANDARD 14)
-#set(CMAKE_CXX_FLAGS "-Werror -Wall -Wextra -Wpedantic")
+set(CMAKE_CXX_FLAGS "-Werror -Wall -Wextra -Wpedantic")
 
 set(BACKENDS_HEADERS "libs/dear/backends/")
 set(BACKENDS_SRC libs/dear/backends/imgui_impl_glfw.cpp libs/dear/backends/imgui_impl_opengl3.cpp)
